@@ -11,6 +11,11 @@ if Q == "y":
     glow = int(input("White glow (positive integer between 0-20 f.ex): "))
 else:
     Q2 = (input("Options:\n-White outlines on black background (wout) \n-Black outlines on white background (bout) \n-Black on white background (b)\n-White on black background (w)\n")).lower()
+    if Q2== "wout":
+        glow = int(input("White glow (positive integer between 0-20 f.ex): "))
+        if glow == 0:
+            glow = 1
+
 
 def mandelbrot(c,maxIt):
     z = 0
@@ -19,19 +24,19 @@ def mandelbrot(c,maxIt):
         z = z * z + c
         n += 1
     return n
-W = 1200
-H = 600
+W = 2220
+H = 1080
 img = Image.new('HSV', (W, H))
 draw = ImageDraw.Draw(img)
 px = img.load()
 for x in range(0, W):
     for y in range(0, H):
-        c = complex(-2 + 3 * (x / W), 1 - 2 * (y / H))
+        c = complex(-2 + 3 * (x / W), 0.8 - 1.6 * (y / H))
         cIt = mandelbrot(c,maxIt)
         color = int((255 * cIt) / maxIt)
         if Q == "n":
             if Q2 == "wout":
-                draw.point([x, y], (0, 0, 0 if cIt == maxIt else color))
+                draw.point([x, y], (0, 0, 0 if cIt == maxIt else glow*color))
             elif Q2 == "bout":
                 draw.point([x, y], (0, 0, 235 if cIt == maxIt else 255-2*cIt))
             elif Q2 == "b":
