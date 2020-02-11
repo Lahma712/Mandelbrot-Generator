@@ -28,7 +28,7 @@ Enter "y" for image with colors or "n" for black&white image (different options 
    To compensate this,  increase the iteration depth
    
     
-   If "n"
+   <b><em>If "n"</em></b>
      
      Options:
      -White outlines on black background (wout) 
