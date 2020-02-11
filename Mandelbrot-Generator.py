@@ -2,6 +2,13 @@ from PIL import Image
 from PIL import ImageDraw
 import getpass
 host = getpass.getuser()
+def mandelbrot(c,maxIt):
+    z = 0
+    n = 0
+    while abs(z) < 2 and n < maxIt:
+        z = z * z + c
+        n += 1
+    return n
 
 maxIt = int(input("Iteration depth: "))
 Q = input("Colors? y/n ")
@@ -16,22 +23,20 @@ else:
         if glow == 0:
             glow = 1
 
-
-def mandelbrot(c,maxIt):
-    z = 0
-    n = 0
-    while abs(z) < 2 and n < maxIt:
-        z = z * z + c
-        n += 1
-    return n
-W = 2220
-H = 1080
+W = int(input("Width of resolution (pixels): "))
+H = int(input("Height of resolution (pixels): "))
+ratio = float(H/W)
+xStart = float(input("Start value for X: "))
+xEnd = float(input("End value for X: "))
+xDist = abs(xStart -xEnd)
+yDist = xDist * ratio
+yvalue = float(input("Y value (= will be the middle of the screen): "))
 img = Image.new('HSV', (W, H))
 draw = ImageDraw.Draw(img)
 px = img.load()
 for x in range(0, W):
     for y in range(0, H):
-        c = complex(-2 + 3 * (x / W), 0.8 - 1.6 * (y / H))
+        c = complex(xStart + abs(xDist) * (x / W), (yvalue + (yDist/2)) - yDist * (y / H))
         cIt = mandelbrot(c,maxIt)
         color = int((255 * cIt) / maxIt)
         if Q == "n":
