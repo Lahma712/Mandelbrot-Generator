@@ -5,7 +5,7 @@ host = getpass.getuser()
 def mandelbrot(c,maxIt):
     z = 0
     n = 0
-    while abs(z) < 2 and n < maxIt:
+    while abs(z) <= 2 and n < maxIt:
         z = z * z + c
         n += 1
     return n
@@ -13,7 +13,7 @@ def mandelbrot(c,maxIt):
 maxIt = int(input("Iteration depth: "))
 Q = input("Colors? y/n ")
 if Q == "y":
-    offset = int(input("Background color (red: 0-25 green: 40-100 blue: 150-170): "))
+    offset = int(input("Background color (Red:0-15|Yellow:15-50|Green:50-110|Blue:110-170|Violet:170-240|Red:240-250): "))
     light = int(input("Lightness (0-255) : "))
     glow = int(input("White glow (positive integer between 0-20 f.ex): "))
 else:
@@ -38,6 +38,7 @@ for x in range(0, W):
     for y in range(0, H):
         c = complex(xStart + abs(xDist) * (x / W), (yvalue + (yDist/2)) - yDist * (y / H))
         cIt = mandelbrot(c,maxIt)
+        print(cIt)
         color = int((255 * cIt) / maxIt)
         if Q == "n":
             if Q2 == "wout":
