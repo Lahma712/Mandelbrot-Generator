@@ -12,7 +12,7 @@ Enter the number of iterations (time increases with size)
 
 Enter "y" for image with colors or "n" for black&white image (different options exist)
 
-   <em>If "y"</em>
+   <b><em>If "y"</em></b>
 
      Background color (red: 0-25 green: 40-100 blue: 150-170): 
    
