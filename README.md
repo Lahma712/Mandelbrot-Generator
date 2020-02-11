@@ -24,7 +24,7 @@ Enter "y" for image with colors or "n" for black&white image (different options 
    
        White glow (positive integer between 0-20 f.ex):
    
-   Enter a value for a white glow effect around the boundaries. Increasing this value makes color shifts more visible. 
+   Enter a value for a white glow effect around the boundaries. Increasing this value makes color stripes more visible. 
    To compensate this,  increase the iteration depth
    
     
