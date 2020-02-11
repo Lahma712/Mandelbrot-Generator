@@ -14,9 +14,9 @@ Enter "y" for image with colors or "n" for black&white image (different options 
 
    <b><em>If "y"</em></b>
 
-       Background color (red: 0-25 green: 40-100 blue: 150-170): 
+       Background color (Red:0-15|Yellow:15-50|Green:50-110|Blue:110-170|Violet:170-240|Red:240-250):
    
-   Enter the desired hue value for the background
+   Enter the desired hue value for the background. NOTE: Entered hue values are more exact when iteration depth is higher (>100)
    
        Lightness (0-255) :
    
@@ -24,8 +24,7 @@ Enter "y" for image with colors or "n" for black&white image (different options 
    
        White glow (positive integer between 0-20 f.ex):
    
-   Enter a value for a white glow effect around the boundaries. Increasing this value makes color stripes more visible. 
-   To compensate this,  increase the iteration depth
+   Enter a value for a white glow effect around the boundaries. NOTE: Increasing this value excessively makes color stripes more visible. To compensate this,  increase the iteration depth. Don`t use glow on zoomed-in renderings, it will be too bright to see anything!
    
     
    <b><em>If "n"</em></b>
