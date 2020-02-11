@@ -14,15 +14,15 @@ Enter "y" for image with colors or "n" for black&white image (different options 
 
    <b><em>If "y"</em></b>
 
-     Background color (red: 0-25 green: 40-100 blue: 150-170): 
+       Background color (red: 0-25 green: 40-100 blue: 150-170): 
    
    Enter the desired hue value for the background
    
-     Lightness (0-255) :
+       Lightness (0-255) :
    
    Enter the lightness value for the colors (smaller is darker)
    
-     White glow (positive integer between 0-20 f.ex):
+       White glow (positive integer between 0-20 f.ex):
    
    Enter a value for a white glow effect around the boundaries. Increasing this value makes color shifts more visible. 
    To compensate this,  increase the iteration depth
@@ -30,11 +30,11 @@ Enter "y" for image with colors or "n" for black&white image (different options 
     
    <b><em>If "n"</em></b>
      
-     Options:
-     -White outlines on black background (wout) 
-     -Black outlines on white background (bout) 
-     -Black on white background (b)
-     -White on black background (w)
+       Options:
+       -White outlines on black background (wout) 
+       -Black outlines on white background (bout) 
+       -Black on white background (b)
+       -White on black background (w)
  
  
     Width of resolution (pixels): <em> Integer </em>
