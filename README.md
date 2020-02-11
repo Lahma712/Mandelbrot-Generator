@@ -38,23 +38,23 @@ Enter "y" for image with colors or "n" for black&white image (different options 
 Chose the desired option with the respective command (without parentheses)
  
  
-    Width of resolution (pixels): <em> Integer </em>
+    Width of resolution (pixels): Integer
   
-    Height of resolution (pixels): <em> Integer </em>
+    Height of resolution (pixels): Integer
   
-    Start value for X: <em> Float</em>
+    Start value for X: Float
   
-    End value for X: <em> Float > Start </em>
+    End value for X: Float > Start 
   
-    Y value (= will be the middle of the screen): <em> Float </em>
+    Y value (= will be the middle of the screen): Float
  
 Enter your image resolution aswell as the coordinates of the site to be rendered.
 
 Coordinates for a full mandelbrot set (for reference):
 
-    Width of resolution (pixels): <em> Integer </em>
+    Width of resolution (pixels): Integer
   
-    Height of resolution (pixels): <em> Integer </em>
+    Height of resolution (pixels): Integer 
   
     Start value for X: -2
   
