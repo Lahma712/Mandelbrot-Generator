@@ -38,7 +38,6 @@ for x in range(0, W):
     for y in range(0, H):
         c = complex(xStart + abs(xDist) * (x / W), (yvalue + (yDist/2)) - yDist * (y / H))
         cIt = mandelbrot(c,maxIt)
-        print(cIt)
         color = int((255 * cIt) / maxIt)
         if Q == "n":
             if Q2 == "wout":
