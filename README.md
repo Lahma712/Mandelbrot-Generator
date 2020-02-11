@@ -59,7 +59,7 @@ Coordinates for a full mandelbrot set (for reference):
   
     Start value for X: -2
   
-    End value for X: 1
+    End value for X: 2
   
     Y value (= will be the middle of the screen): 0
 
