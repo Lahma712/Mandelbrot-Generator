@@ -65,3 +65,6 @@ Coordinates for a full mandelbrot set (for reference):
 
 The rendered image is saved to your desktop
 
+
+![img](https://imgur.com/j33T21z)
+
