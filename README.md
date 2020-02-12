@@ -66,7 +66,7 @@ Coordinates for a full mandelbrot set (for reference):
 The rendered image is saved to your desktop
 
 
-<b>Images</b>
+<b>Images (rendered with program)</b>
 
 
 ![img](https://imgur.com/j33T21z.png)
