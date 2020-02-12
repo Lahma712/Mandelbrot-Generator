@@ -33,7 +33,6 @@ yDist = xDist * ratio
 yvalue = float(input("Y value (= will be the middle of the screen): "))
 img = Image.new('HSV', (W, H))
 draw = ImageDraw.Draw(img)
-px = img.load()
 for x in range(0, W):
     for y in range(0, H):
         c = complex(xStart + abs(xDist) * (x / W), (yvalue + (yDist/2)) - yDist * (y / H))
