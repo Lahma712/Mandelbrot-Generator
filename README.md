@@ -78,5 +78,9 @@ The rendered image is saved to your desktop
 
 ![img](https://imgur.com/N8103zl.png)
 
+![img](https://imgur.com/IHN9Fx9.png)
+
+![img](https://imgur.com/JvbEXtn.png)
+
 
 
