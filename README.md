@@ -76,7 +76,7 @@ The rendered image is saved to your desktop
 ![img](https://imgur.com/yTA8wET.png)
 
 
-![img](https://imgur.com/Ry4zuGx.png)
+![img](https://imgur.com/N8103zl.png)
 
 
 
