@@ -22,9 +22,9 @@ Enter "y" for image with colors or "n" for black&white image (different options 
    
    Enter the lightness value for the colors (smaller is darker)
    
-       White glow (positive integer between 0-20 f.ex):
+       White glow (positive integer between 0-10 f.ex):
    
-   Enter a value for a white glow effect around the boundaries. NOTE: Increasing this value excessively makes color stripes more visible. To compensate this,  increase the iteration depth. Don`t use glow on zoomed in renderings, it will be too bright to see anything!
+Enter a value for a white glow effect around the boundaries. NOTE: Increasing this value excessively makes color stripes more visible. To compensate this,  increase the iteration depth. Glow may be beneficial on zoomed in greyscale images as it increases contrast. 
    
     
    <b><em>If "n"</em></b>
