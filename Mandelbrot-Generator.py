@@ -57,5 +57,5 @@ for x in range(0, W):
             saturation = 255 - glow * color
             draw.point([x, y], (Color, saturation, 0 if cIt == maxIt else light))
 
-img.convert('RGB').save("c:\\Users\\{}\\Desktop\\image.png".format(host))
+img.convert('RGB').save("c:\\Users\\{}\\Desktop\\mandelbrot.png".format(host))
 img.show()
