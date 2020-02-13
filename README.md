@@ -1,6 +1,6 @@
-# Mandelbrot-Generator
+# Mandelbrot-Viewer
 
-This is a Mandelbrot set generator/viewer. 
+This is a Mandelbrot set viewer. 
 
 <b>Instructions:</b>
 
