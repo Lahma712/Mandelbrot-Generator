@@ -2,7 +2,7 @@ from PIL import Image
 from PIL import ImageDraw
 import getpass
 host = getpass.getuser()
-def mandelbrot(c,maxIt):
+def mandelbrot(c,maxIt): #mandelbrot function
     z = 0
     n = 0
     while abs(z) <= 2 and n < maxIt:
