@@ -1,4 +1,4 @@
-# Mandelbrot-Viewer
+# Mandelbrot-Viewer [Archived]
 
 This is a Mandelbrot set viewer. 
 
